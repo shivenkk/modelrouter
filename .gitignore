@@ -1,0 +1,34 @@
+# env
+.env
+venv/
+
+# python
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+
+# logs and reports
+router-api/logs/
+eval-pipeline/eval_report_*.json
+
+# training data (regenerable)
+training/training_data.jsonl
+training/*.jsonl
+
+# node
+node_modules/
+dashboard/node_modules/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# build
+dist/
+build/
